@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>any23tool</groupId>
+  <artifactId>any23tool</artifactId>
+  <version>0.1</version>
+  <packaging>jar</packaging>
+  <name>any23tool</name>
+
+  <properties>
+       <java.version>1.7</java.version>
+       <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+      <dependency>
+          <groupId>org.apache.any23</groupId>
+          <artifactId>apache-any23-core</artifactId>
+	  	  <version>0.9.0</version>
+      </dependency>
+            
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+<build>
+<finalName>convert</finalName>
+                <plugins>
+                        <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-compiler-plugin</artifactId>
+                                <version>${maven-compiler-plugin-version}</version>
+                                <configuration>
+                                        <source>${java.version}</source>
+                                        <target>${java.version}</target>
+                                </configuration>
+                        </plugin>                       
+                
+     <plugin>
+    <!-- Build an executable JAR -->
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <configuration>
+    <archive>
+      <manifest>
+      <addClasspath>true</addClasspath>
+      <mainClass>any23tool.any23tool.Convert</mainClass>
+      </manifest>
+    </archive>
+     </configuration>
+    </plugin>
+
+		</plugins>
+        </build>   
+</project>
