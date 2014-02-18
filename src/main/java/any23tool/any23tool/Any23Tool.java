@@ -33,7 +33,7 @@ public class Any23Tool {
 		if(args.length < 2){
 			System.out.println("Try:");
 			System.out.println("java -jar any23tool.jar inputFilePath outputFilePath");
-			System.out.println("java -jar any23tool.jar inputFilePath outputFilePath [nquads,ntriples] [graphURI]");
+			System.out.println("java -jar any23tool.jar inputFilePath outputFilePath [nquads,ntriples,turtle,rdfxml] [graphURI]");
 			
 			System.out.println("Where:");
 			System.out.println("inputFilePath and outputfilePath are either path to single files or paths to directories");
@@ -41,12 +41,22 @@ public class Any23Tool {
 			System.exit(-1);
 		}
 		String graphUri = "http://example.com";
-		String format = "ntriples";
+		String format = null;
 		
-		//TODO assume the output format based on file extension
-		if(args.length > 2 && "nquads".equals(args[2])){
-			format = "nquads";
+		if(args.length > 2 ){
+			if( "nquads".equals(args[2])){
+				format = "nquads";
+			}else if( "ntriples".equals(args[2])){
+				format = "ntripels";
+			}else if( "rdfxml".equals(args[2])){
+				format = "rdfxml";
+			}else if( "turtle".equals(args[2])){
+				format = "turtle";
+			}else{
+				System.out.println("Output format not provided. Will try to gues by file extension or will use ntriples by default");
+			}			
 		}
+		
 		if(args.length == 4 ){
 			graphUri = args[3];
 		}

@@ -15,8 +15,10 @@ import org.apache.any23.extractor.Extractor;
 import org.apache.any23.source.DocumentSource;
 import org.apache.any23.writer.NQuadsWriter;
 import org.apache.any23.writer.NTriplesWriter;
+import org.apache.any23.writer.RDFXMLWriter;
 import org.apache.any23.writer.TripleHandler;
 import org.apache.any23.writer.TripleHandlerException;
+import org.apache.any23.writer.TurtleWriter;
 
 public class Converter {
 
@@ -37,7 +39,13 @@ public class Converter {
 		
 		
 		if( inputFile.isDirectory() && outputFile.isDirectory() ){
-
+			
+			// we deal with bunch of files and output format was not provided
+			// use the default one
+			if(format==null){
+				format = "ntriples";
+			}
+						
 			File outputDir = outputFile;
 			File inputDir = inputFile;
 			
@@ -61,6 +69,10 @@ public class Converter {
 				
 				if(format.equals("nquads") ){
 					outputPath+=".nq";
+				}else if(format.equals("turtle") ){
+					outputPath+=".ttl";
+				}else if(format.equals("rdfxml") ){
+					outputPath+=".rdf.xml";
 				}else{
 					outputPath+=".nt";
 				}
@@ -79,6 +91,23 @@ public class Converter {
 					}});
 			}
 		}else{
+			
+			// single files and output format was not provided 
+			// we try to gues by file extension or use the default one 
+			if(format==null){
+				if(outputFile.getAbsolutePath().endsWith(".nt")){
+					format = "ntriples";
+				}else if(outputFile.getAbsolutePath().endsWith(".nq")){
+					format = "nquads";
+				}else if(outputFile.getAbsolutePath().endsWith(".ttl")){
+					format = "turtle";
+				}else if(outputFile.getAbsolutePath().endsWith(".rdf") || outputFile.getAbsolutePath().endsWith(".rdf.xml")  ){
+					format = "rdfxml";
+				}else{
+					format = "ntriples";
+				}
+			}
+			
 			convertSingleFile(inputFile, outputFile, graphUri, format, null);
 		}
 		
@@ -95,11 +124,15 @@ public class Converter {
 		DocumentSource source = new MyFileDocumentSource(inputFile, graphUri, inputContentType);
 		OutputStream out = new FileOutputStream(outputFile);
 		
-		TripleHandler handler = new NQuadsWriter(out);
-		// TurtleWriter.java
-		// RDFXMLWriter.java
+		TripleHandler handler;
 		if(format.equals("ntriples")){
 			handler = new NTriplesWriter(out);
+		}else if (format.equals("turtle")) {
+			handler = new TurtleWriter(out);
+		}else if (format.equals("rdfxml")) {
+			handler = new RDFXMLWriter(out);
+		}else{
+			handler = new NQuadsWriter(out);
 		}
 		
 		ExtractionReport report;
@@ -110,10 +143,8 @@ public class Converter {
 			out.close();
 		}
 
-
 		// check the output file size 
 		// 0 indicates something went wrong
-		
 		if( ! report.hasMatchingExtractors() || outputFile.length() == 0){
 			System.out.println("Did not find matching extractor or produced file is empty");
 			System.out.println("Detected mimeType: "+report.getDetectedMimeType());
@@ -123,7 +154,18 @@ public class Converter {
 				System.out.println("Will try to do it again with rdf-xml extractor");
 				convertSingleFile(inputFile,outputFile, graphUri, format, "application/rdf+xml"); 
 			}
-			
+			if(inputFile.getAbsolutePath().endsWith(".nt") ){
+				System.out.println("Will try to do it again with ntriples extractor");
+				convertSingleFile(inputFile,outputFile, graphUri, format, "text/nt;q=0.1"); 
+			}
+			if(inputFile.getAbsolutePath().endsWith(".nq") ){
+				System.out.println("Will try to do it again with nquads extractor");
+				convertSingleFile(inputFile,outputFile, graphUri, format, "text/rdf+nq;q=0.1"); 
+			}
+			if(inputFile.getAbsolutePath().endsWith(".ttl") ){
+				System.out.println("Will try to do it again with turtle extractor");
+				convertSingleFile(inputFile,outputFile, graphUri, format, "application/turtle"); 
+			}
 			
 		}else{
 			System.out.println("Found following matching extractors: ");
