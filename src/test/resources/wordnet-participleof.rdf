@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+    <!ENTITY wn20instances 'http://www.w3.org/2006/03/wn/wn20/instances/'>
+    <!ENTITY wn20schema 'http://www.w3.org/2006/03/wn/wn20/schema/'>
+]>
+
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:wn20instances="&wn20instances;"
+    xmlns:wn20schema="&wn20schema;"
+    xml:lang="en-US">
+<rdf:Description rdf:about="&wn20instances;wordsense-adsorbing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-adsorb-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-applied-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-apply-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-avenged-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-avenge-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-unavenged-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-avenge-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-babbling-adjective-2">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-babble-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-based-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-base-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-beaten-adjective-2">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-beat-verb-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-breaking-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-break-verb-20"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-burnt-adjective-2">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-burn-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-burned-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-burn-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-unburned-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-burn-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-graduated-adjective-2">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-calibrate-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-calibrated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-calibrate-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-cantering-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-canter-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-carbonized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-carbonize-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-charred-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-char-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-gathered-adjective-2">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-gather-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-collected-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-collect-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-ungathered-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-gather-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-uncollected-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-collect-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-containerised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-containerize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-containerized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-containerize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-contested-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-contest-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-uncontested-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-contest-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-corbelled-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-corbel-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-counterbalancing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-counterbalance-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-curdling-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-curdle-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-cursing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-curse-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-deposed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-depose-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-dimpled-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-dimple-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-dissolving-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-dissolve-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-elapsed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-elapse-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-emerging-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-emerge-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-emitting-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-emit-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-forced-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-force-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-hammered-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hammer-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-handheld-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hold-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-hand-held-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hold-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-held-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hold-verb-22"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-hydrogenated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hydrogenate-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-irritated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-irritate-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pulled-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pull-verb-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-drawn-adjective-5">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-draw-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-produced-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-produce-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-scolding-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-scold-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-straitened-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-straiten-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-streaming-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-stream-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-surmounted-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-surmount-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-docked-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-dock-verb-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-crunched-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-crunch-verb-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-embodied-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-embody-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-developing-adjective-2">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-develop-verb-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-developing-adjective-3">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-develop-verb-15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-exploded-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-explode-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-extrapolated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-extrapolate-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-galloping-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-gallop-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-greening-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-green-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-hijacking-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hijack-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-hypophysectomised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hypophysectomise-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-hypophysectomized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-hypophysectomize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-abducted-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-abduct-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-kidnapped-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-kidnap-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-living-adjective-3">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-live-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-marched_upon-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-march-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-mercerised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-mercerize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-mercerized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-mercerize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-mounded_over-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-mound_over-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-notifiable-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-notify-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-operating-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-operate-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-oxidised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-oxidise-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-oxidized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-oxidize-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-parked-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-park-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pasteurised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pasteurise-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pasteurized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pasteurize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-unpasteurised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pasteurise-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-unpasteurized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pasteurize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pencilled-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pencil-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-penciled-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pencil-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-peptising-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-peptize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-peptizing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-peptize-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pitched-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pitch-verb-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-played-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-play-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-plugged-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-change-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pointing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-point-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-posed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pose-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-unposed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pose-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-posted-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-post-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-preconceived-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-conceive-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-punishing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-punish-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-pursued-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-pursue-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-ranging-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-range-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-re-created-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-re-create-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-regenerating-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-regenerate-verb-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-remembered-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-remember-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-resublimed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-resublime-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-ridged-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-ridge-verb-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sanitised-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-sanitise-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sanitized-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-sanitize-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-seeking-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-seek-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-shrieked-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-shriek-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sintered-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-sinter-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sluicing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-sluice-verb-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-spray-dried-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-spray-dry-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-squashed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-squash-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-stacked-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-stack-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-stored-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-store-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-strung-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-string-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sublimated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-sublimate-verb-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sublimed-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-sublime-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-tittering-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-titter-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-thoriated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-thoriate-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-transpiring-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-transpire-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-disappearing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-disappear-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-vanishing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-vanish-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-worshipping-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-worship-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-worshiping-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-worship-verb-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-cooing-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-coo-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-chattering-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-chatter-verb-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-permeated-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-permeate-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-sought-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-seek-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-dumped-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-dump-verb-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-closed-captioned-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-caption-verb-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-saponified-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-saponify-verb-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="&wn20instances;wordsense-unsaponified-adjective-1">
+  <wn20schema:participleOf rdf:resource="&wn20instances;wordsense-saponify-verb-2"/>
+</rdf:Description>
+
+</rdf:RDF>
