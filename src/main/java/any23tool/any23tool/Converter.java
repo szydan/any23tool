@@ -166,6 +166,10 @@ public class Converter {
 				System.out.println("Will try to do it again with turtle extractor");
 				convertSingleFile(inputFile,outputFile, graphUri, format, "application/turtle"); 
 			}
+			if(inputFile.getAbsolutePath().endsWith(".csv") ){
+				System.out.println("Will try to do it again with csv extractor");
+				convertSingleFile(inputFile,outputFile, graphUri, format, "text/csv;q=0.1"); 
+			}
 			
 		}else{
 			System.out.println("Found following matching extractors: ");

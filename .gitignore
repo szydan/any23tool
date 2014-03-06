@@ -5,3 +5,11 @@
 *.war
 *.ear
 /target
+
+# env specific 
+
+.classpath
+.fatjar
+.project
+.settings
+

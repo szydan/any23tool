@@ -36,6 +36,20 @@ public class Any23ToolTest {
 		runOnce(c, new File("src/test/resources/VulneraPedia.full.v0.5.rdf"), output);
 	}
 
+	@Test
+	public void csvFilestest() throws Exception {
+		final Any23 runner = new Any23();
+		int cores = Runtime.getRuntime().availableProcessors();
+		System.out.println("Number of available logical cores: "+cores);
+		final ExecutorService executor = Executors.newFixedThreadPool(cores);
+		Converter c = new Converter(runner, executor);
+
+		File output = new File("target/test.nq");
+		
+		runOnce(c, new File("src/test/resources/small.csv"), output);
+	}
+
+	
 	private void runOnce(Converter c, File input, File output) throws FileNotFoundException,
 			IOException, ExtractionException, TripleHandlerException {
 		
