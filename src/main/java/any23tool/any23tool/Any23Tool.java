@@ -1,22 +1,12 @@
 package any23tool.any23tool;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FilenameFilter;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import org.apache.any23.Any23;
-import org.apache.any23.ExtractionReport;
 import org.apache.any23.extractor.ExtractionException;
-import org.apache.any23.extractor.Extractor;
-import org.apache.any23.source.DocumentSource;
-import org.apache.any23.writer.NQuadsWriter;
-import org.apache.any23.writer.NTriplesWriter;
-import org.apache.any23.writer.TripleHandler;
 import org.apache.any23.writer.TripleHandlerException;
 
 /**
@@ -47,7 +37,7 @@ public class Any23Tool {
 			if( "nquads".equals(args[2])){
 				format = "nquads";
 			}else if( "ntriples".equals(args[2])){
-				format = "ntripels";
+				format = "ntriples";
 			}else if( "rdfxml".equals(args[2])){
 				format = "rdfxml";
 			}else if( "turtle".equals(args[2])){
